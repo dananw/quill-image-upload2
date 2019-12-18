@@ -2,6 +2,8 @@
 
 A module for Quill rich text editor to upload images to be selected from toolbar editor.
 
+:bug: Fix Bug : accepted response code 200, 201, 202, 203, 204, 205, 206, 207, 208, 226
+
 ## Usage
 
 ### Webpack/ES6
