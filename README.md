@@ -8,7 +8,7 @@ A module for Quill rich text editor to upload images to be selected from toolbar
 
 ```javascript
 import Quill from 'quill';
-import { ImageUpload } from 'quill-image-upload';
+import { ImageUpload } from 'quill-image-upload2';
 
 Quill.register('modules/imageUpload', ImageUpload);
 
@@ -48,7 +48,7 @@ const quill = new Quill(editor, {
 Copy image-upload.min.js into your web root or include from node_modules
 
 ```html
-<script src="/node_modules/quill-image-upload/image-upload.min.js"></script>
+<script src="/node_modules/quill-image-upload2/image-upload.min.js"></script>
 ```
 
 ```javascript
