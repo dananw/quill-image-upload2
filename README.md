@@ -23,11 +23,17 @@ const quill = new Quill(editor, {
 			method: 'POST', // change query method, default 'POST'
 			name: 'image', // custom form name
 			withCredentials: false, // withCredentials
-			headers: {}, // add custom headers, example { token: 'your-token'}
-			csrf: { token: 'token', hash: '' }, // add custom CSRF
+			headers: { // add custom headers, example { token: 'your-token'}
+				'Authorization': 'Token your-token',
+			}, 
+			csrf: { // add custom CSRF
+				token: 'token', 
+				hash: '' 
+			},
 			customUploader: () => {}, // add custom uploader
 			// personalize successful callback and call next function to insert new url to the editor
 			callbackOK: (serverResponse, next) => {
+				// serverResponse must return of full image URL.
 				next(serverResponse);
 			},
 			// personalize failed callback
@@ -63,9 +69,12 @@ var quill = new Quill(editor, {
 			method: 'POST', // change query method, default 'POST'
 			name: 'image', // custom form name
 			withCredentials: false, // withCredentials
-			headers: {}, // add custom headers, example { token: 'your-token'}
+			headers: {
+				'Authorization': 'Token your-token',
+			}, // add custom headers, example { token: 'your-token'}
 			// personalize successful callback and call next function to insert new url to the editor
 			callbackOK: (serverResponse, next) => {
+				// serverResponse must return of full image URL.
 				next(serverResponse);
 			},
 			// personalize failed callback
