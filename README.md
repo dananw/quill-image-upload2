@@ -1,4 +1,5 @@
 
+[![npm version](https://img.shields.io/npm/v/quill-image-upload2.svg?style=flat-square)](https://www.npmjs.org/package/quill-image-upload2)
 [![Known Vulnerabilities](https://snyk.io/test/github/dananw/quill-image-upload2/badge.svg)](https://snyk.io/test/github/dananw/quill-image-upload2)
 
 
