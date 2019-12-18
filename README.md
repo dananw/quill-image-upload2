@@ -1,8 +1,20 @@
+
+[![Known Vulnerabilities](https://snyk.io/test/github/dananw/quill-image-upload2/badge.svg)](https://snyk.io/test/github/dananw/quill-image-upload2)
+
+
 # Quill ImageUpload Module
 
 A module for Quill rich text editor to upload images to be selected from toolbar editor.
 
 :bug: Fix Bug : accepted response code 200, 201, 202, 203, 204, 205, 206, 207, 208, 226
+
+
+## Install (select one)
+
+- npm : `npm i quill-image-upload2`
+- yarn : `yarn add quill-image-upload2`
+
+
 
 ## Usage
 
